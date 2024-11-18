@@ -12,7 +12,7 @@ public class App {
         button = guiFactory.createButton();
         checkbox = guiFactory.createCheckbox();
     }
-    void paint(){
+    public void paint(){
         button.paint();
         checkbox.paint();
     }
