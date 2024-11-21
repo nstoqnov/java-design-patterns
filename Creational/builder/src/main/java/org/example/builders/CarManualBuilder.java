@@ -1,12 +1,13 @@
 package org.example.builders;
 
-public class CarBuilder implements Builder{
-    private CarType type;
+public class CarManualBuilder  implements Builder{
+    private CarType carType;
     private int seats;
     private Engine engine;
     private Transmission transmission;
     private TripComputer tripComputer;
     private GPSNavigator gpsNavigator;
+
     @Override
     public void setCarType(CarType carType) {
         this.carType = carType;
@@ -34,9 +35,9 @@ public class CarBuilder implements Builder{
 
     @Override
     public void setGPSNavigator(GPSNavigator gpsNavigator) {
-        this.gpsNavigator= gpsNavigator;
+        this.gpsNavigator = gpsNavigator;
     }
-    public Car getResults(){
-        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+    public Manual getResult(){
+        return new Manual(carType, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }
