@@ -1,12 +1,17 @@
 package org.example.cars;
 
+import org.example.components.Engine;
+import org.example.components.GPSNavigator;
+import org.example.components.Transmission;
+import org.example.components.TripComputer;
+
 public class Car {
     private final CarType carType;
     private final int seats;
     private final Engine engine;
     private final Transmission transmission;
     private final TripComputer tripComputer;
-    private final GPSnavigator gpSnavigator;
+    private final GPSNavigator gpsNavigator;
     private double fuel = 0;
 
     public Car(CarType carType, int seats, Engine engine, Transmission transmission,

@@ -1,5 +1,12 @@
 package org.example.builders;
 
+import org.example.cars.CarType;
+import org.example.cars.Manual;
+import org.example.components.Engine;
+import org.example.components.GPSNavigator;
+import org.example.components.Transmission;
+import org.example.components.TripComputer;
+
 public class CarManualBuilder  implements Builder{
     private CarType carType;
     private int seats;

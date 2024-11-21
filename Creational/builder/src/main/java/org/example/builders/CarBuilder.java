@@ -1,7 +1,14 @@
 package org.example.builders;
 
+import org.example.cars.Car;
+import org.example.cars.CarType;
+import org.example.components.Engine;
+import org.example.components.GPSNavigator;
+import org.example.components.Transmission;
+import org.example.components.TripComputer;
+
 public class CarBuilder implements Builder{
-    private CarType type;
+    private CarType carType;
     private int seats;
     private Engine engine;
     private Transmission transmission;
@@ -37,6 +44,6 @@ public class CarBuilder implements Builder{
         this.gpsNavigator= gpsNavigator;
     }
     public Car getResults(){
-        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+        return new Car(carType, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }
