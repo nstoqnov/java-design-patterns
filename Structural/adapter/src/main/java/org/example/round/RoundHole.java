@@ -9,7 +9,7 @@ public class RoundHole {
     public double getRadius(){
         return radius;
     }
-    public boolean fits(Roundpeg roundpeg){
+    public boolean fits(RoundPeg roundpeg){
         boolean result;
         result = (this.getRadius() >= roundpeg.getRadius());
         return result;
