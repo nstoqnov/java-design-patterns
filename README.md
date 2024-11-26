@@ -16,7 +16,6 @@ This repository is a practical guide to learning and implementing some of the mo
   - [Structural Patterns](#structural-patterns)
   - [Behavioral Patterns](#behavioral-patterns)
 
-
 ---
 
 ## Introduction
@@ -34,44 +33,44 @@ The guide covers design patterns in three main categories:
 
 These patterns simplify object creation, enhancing flexibility and reusability.
 
-| Pattern          | Description                                                   |
-| ---------------- | ------------------------------------------------------------- |
-| **Singleton**    | Ensures only one instance of a class exists.                  |
-| **Factory Method** | Provides an interface for creating instances of related classes. |
-| **Abstract Factory** | Creates families of related objects without specifying exact classes. |
-| **Builder**      | Builds complex objects step-by-step.                          |
-| **Prototype**    | Creates new objects by copying an existing instance.          |
+| Pattern            | Description                                                   | Status  |
+| ------------------ | ------------------------------------------------------------- | ---------------------- |
+| **Singleton**      | Ensures only one instance of a class exists.                  | ✅ |
+| **Factory Method** | Provides an interface for creating instances of related classes. | ✅  |
+| **Abstract Factory** | Creates families of related objects without specifying exact classes. | ✅  |
+| **Builder**        | Builds complex objects step-by-step.                          | 🟡  |
+| **Prototype**      | Creates new objects by copying an existing instance.          | 🟡   |
 
 ### Structural Patterns
 
 These patterns deal with object composition, helping to create large structures with improved relationships.
 
-| Pattern          | Description                                                   |
-| ---------------- | ------------------------------------------------------------- |
-| **Adapter**      | Enables incompatible interfaces to work together.             |
-| **Bridge**       | Decouples abstraction from implementation.                    |
-| **Composite**    | Represents part-whole hierarchies with tree structures.       |
-| **Decorator**    | Adds functionality to objects dynamically.                    |
-| **Facade**       | Simplifies complex system interactions with a single interface. |
-| **Flyweight**    | Shares data to minimize memory use.                           |
-| **Proxy**        | Controls access to an object, providing a placeholder.        |
+| Pattern          | Description                                                   | Status  |
+| ---------------- | ------------------------------------------------------------- | ---------------------- |
+| **Adapter**      | Enables incompatible interfaces to work together.             | ❌ Not Started |
+| **Bridge**       | Decouples abstraction from implementation.                    | ❌ Not Started         |
+| **Composite**    | Represents part-whole hierarchies with tree structures.       | ❌ Not Started         |
+| **Decorator**    | Adds functionality to objects dynamically.                    | ❌ Not Started         |
+| **Facade**       | Simplifies complex system interactions with a single interface. | ❌ Not Started       |
+| **Flyweight**    | Shares data to minimize memory use.                           | ❌ Not Started         |
+| **Proxy**        | Controls access to an object, providing a placeholder.        | ❌ Not Started         |
 
 ### Behavioral Patterns
 
 Behavioral patterns manage object interactions and communication, making systems flexible and responsive.
 
-| Pattern          | Description                                                   |
-| ---------------- | ------------------------------------------------------------- |
-| **Chain of Responsibility** | Passes requests along a chain of handlers.       |
-| **Command**      | Encapsulates requests as objects.                             |
-| **Interpreter**  | Provides a way to interpret custom language grammars.        |
-| **Iterator**     | Sequentially accesses elements of a collection.              |
-| **Mediator**     | Simplifies complex object communication.                     |
-| **Memento**      | Captures and restores an object's state.                     |
-| **Observer**     | Notifies dependent objects of state changes.                 |
-| **State**        | Alters object behavior based on its internal state.          |
-| **Strategy**     | Allows for interchangeable algorithms in an operation.       |
-| **Template Method** | Defines steps of an algorithm, allowing customization.   |
-| **Visitor**      | Adds operations to classes without modifying them.           |
+| Pattern                | Description                                                   | Status  |
+| ---------------------- | ------------------------------------------------------------- | ---------------------- |
+| **Chain of Responsibility** | Passes requests along a chain of handlers.            | ❌ Not Started         |
+| **Command**            | Encapsulates requests as objects.                             | ❌ Not Started         |
+| **Interpreter**        | Provides a way to interpret custom language grammars.        | ❌ Not Started         |
+| **Iterator**           | Sequentially accesses elements of a collection.              | ❌ Not Started         |
+| **Mediator**           | Simplifies complex object communication.                     | ❌ Not Started         |
+| **Memento**            | Captures and restores an object's state.                     | ❌ Not Started         |
+| **Observer**           | Notifies dependent objects of state changes.                 | ❌ Not Started         |
+| **State**              | Alters object behavior based on its internal state.          | ❌ Not Started         |
+| **Strategy**           | Allows for interchangeable algorithms in an operation.       | ❌ Not Started         |
+| **Template Method**    | Defines steps of an algorithm, allowing customization.        | ❌ Not Started         |
+| **Visitor**            | Adds operations to classes without modifying them.           | ❌ Not Started         |
 
-
+---
