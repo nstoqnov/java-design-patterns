@@ -69,7 +69,7 @@ public class BaseShape implements Shape {
             disableSelectionStyle(graphics);
         }
     }
-    
+
     void enableSelectionStyle(Graphics graphics) {
         graphics.setColor(Color.LIGHT_GRAY);
 
