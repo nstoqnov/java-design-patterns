@@ -16,6 +16,7 @@ public class Main {
                 new Circle(10, 10, 10, Color.BLUE),
 
                 new CompoundShape(
+                        //create compound shapes
                         new Circle(110, 110, 50, Color.RED),
                         new Dot(160, 160, Color.RED)
                 ),
