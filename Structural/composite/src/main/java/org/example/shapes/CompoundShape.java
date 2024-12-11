@@ -3,9 +3,8 @@ package org.example.shapes;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-
-public class CompoundShape extends BaseShape{
-    protected List<Shape> children = new ArrayList<>();
+public class CompoundShape extends BaseShape {
+    protected ArrayList<Shape> children = new ArrayList<Shape>();
 
     public CompoundShape(Shape... components) {
         super(0, 0, Color.BLACK);

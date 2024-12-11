@@ -4,8 +4,11 @@ import org.example.editor.ImageEditor;
 import org.example.shapes.Circle;
 import org.example.shapes.CompoundShape;
 import org.example.shapes.Dot;
+import org.example.shapes.Rectangle;
 
 import java.awt.*;
+
+import static java.awt.Color.GREEN;
 
 public class Main {
     public static void main(String[] args) {
