@@ -47,9 +47,9 @@ These patterns deal with object composition, helping to create large structures 
 
 | Pattern          | Description                                                   | Status  |
 | ---------------- | ------------------------------------------------------------- | ---------------------- |
-| **Adapter**      | Enables incompatible interfaces to work together.             | ❌ Not Started |
-| **Bridge**       | Decouples abstraction from implementation.                    | ❌ Not Started         |
-| **Composite**    | Represents part-whole hierarchies with tree structures.       | ❌ Not Started         |
+| **Adapter**      | Enables incompatible interfaces to work together.             | 🟡 |
+| **Bridge**       | Decouples abstraction from implementation.                    | 🟡         |
+| **Composite**    | Represents part-whole hierarchies with tree structures.       | 🟡         |
 | **Decorator**    | Adds functionality to objects dynamically.                    | ❌ Not Started         |
 | **Facade**       | Simplifies complex system interactions with a single interface. | ❌ Not Started       |
 | **Flyweight**    | Shares data to minimize memory use.                           | ❌ Not Started         |
