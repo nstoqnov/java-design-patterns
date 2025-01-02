@@ -31,6 +31,19 @@ public class Main {
         int, short, long, float, double, boolean, char
         They can be used in declaration of variable as follows:
         int number = 1;
+
+
+        Day 2 questions:
+        1. What is the basic structure of a Java program? Describe the roles of classes, methods, and statements.
+        Basically we can say that everything in java is classes.
+        Simple program is made by class and main method.
+        2. What are the primitive data types in Java? Give examples of each.
+        3. How do you declare and initialize a variable in Java?
+        Provide an example for each of the following data types: int, double, boolean, and String.
+        4. What is the scope of a variable in Java? Explain the concepts of local variables, instance variables, and class variables.
+        5. What is the difference between the "==" operator and the "equals" method when comparing two objects in Java?
+        6. Explain the concept of type casting in Java. How can you convert a variable from one data type to another?
+        7. What is the difference between static and non-static methods in Java? How do you call each of these methods?
         */
     }
 }
