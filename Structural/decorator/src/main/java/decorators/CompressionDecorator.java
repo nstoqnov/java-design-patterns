@@ -9,10 +9,10 @@ import java.util.zip.Deflater;
 import java.util.zip.DeflaterOutputStream;
 import java.util.zip.InflaterInputStream;
 
-public class CompressionDecoder extends DataSourceDecorator {
+public class CompressionDecorator extends DataSourceDecorator {
     private int compLevel = 6;
 
-    public CompressionDecoder(DataSource source) {
+    public CompressionDecorator(DataSource source) {
         super(source);
     }
 
