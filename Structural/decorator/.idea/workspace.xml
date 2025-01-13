@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73ed133b-cc7c-4bcd-b16d-e9121b528d11" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -65,7 +64,7 @@
       <workItem from="1733940480899" duration="5984000" />
       <workItem from="1736279914003" duration="1160000" />
       <workItem from="1736352070816" duration="553000" />
-      <workItem from="1736446681656" duration="2354000" />
+      <workItem from="1736446681656" duration="2988000" />
     </task>
     <servers />
   </component>
