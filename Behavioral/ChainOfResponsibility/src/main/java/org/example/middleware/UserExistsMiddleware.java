@@ -1,5 +1,7 @@
 package org.example.middleware;
 
+import org.example.server.Server;
+
 public class UserExistsMiddleware extends Middleware{
     private Server server;
 
