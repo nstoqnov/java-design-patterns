@@ -1,5 +1,7 @@
 package org.example.commands;
 
+import org.example.editor.Editor;
+
 public abstract class Command {
     public Editor editor;
     private String backup;

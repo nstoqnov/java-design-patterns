@@ -1,5 +1,7 @@
 package org.example.commands;
 
+import org.example.editor.Editor;
+
 public class PasteCommand extends Command{
     public PasteCommand(Editor editor){
         super(editor);
