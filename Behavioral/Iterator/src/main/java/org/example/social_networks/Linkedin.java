@@ -1,5 +1,6 @@
 package org.example.social_networks;
 
+import org.example.iterators.LinkedinIterator;
 import org.example.iterators.ProfileIterator;
 import org.example.profile.Profile;
 
@@ -9,7 +10,7 @@ import java.util.List;
 public class Linkedin implements SocialNetwork {
     private List<Profile> contacts;
 
-    public LinkedIn(List<Profile> cache) {
+    public Linkedin(List<Profile> cache) {
         if (cache != null) {
             this.contacts = cache;
         } else {
@@ -62,11 +63,11 @@ public class Linkedin implements SocialNetwork {
 
     @Override
     public ProfileIterator createFriendsIterator(String profileEmail) {
-        return new LinkedInIterator(this, "friends", profileEmail);
+        return new LinkedinIterator(this, "friends", profileEmail);
     }
 
     @Override
     public ProfileIterator createCoworkersIterator(String profileEmail) {
-        return new LinkedInIterator(this, "coworkers", profileEmail);
+        return new LinkedinIterator(this, "coworkers", profileEmail);
     }
 }

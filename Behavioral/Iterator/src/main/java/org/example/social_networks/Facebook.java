@@ -1,5 +1,7 @@
 package org.example.social_networks;
 
+import org.example.iterators.FacebookIterator;
+import org.example.iterators.ProfileIterator;
 import org.example.profile.Profile;
 
 import java.util.ArrayList;
