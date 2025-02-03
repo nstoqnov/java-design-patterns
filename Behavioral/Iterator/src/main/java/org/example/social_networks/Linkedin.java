@@ -1,5 +1,11 @@
 package org.example.social_networks;
 
+import org.example.iterators.ProfileIterator;
+import org.example.profile.Profile;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Linkedin implements SocialNetwork {
     private List<Profile> contacts;
 
