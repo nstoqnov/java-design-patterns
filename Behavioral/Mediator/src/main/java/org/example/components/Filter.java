@@ -1,5 +1,8 @@
 package org.example.components;
 
+import org.example.mediator.Mediator;
+import org.example.mediator.Note;
+
 import javax.swing.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;

@@ -1,8 +1,12 @@
 package org.example.mediator;
 
 import org.example.components.*;
+import org.example.components.Component;
+import org.example.components.List;
 
 import javax.swing.*;
+import javax.swing.border.LineBorder;
+import java.awt.*;
 
 public class Editor implements Mediator{
     private Title title;

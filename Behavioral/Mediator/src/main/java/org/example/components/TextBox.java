@@ -1,5 +1,7 @@
 package org.example.components;
 
+import org.example.mediator.Mediator;
+
 import javax.swing.*;
 import java.awt.event.KeyEvent;
 
