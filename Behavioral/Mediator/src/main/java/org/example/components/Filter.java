@@ -43,7 +43,7 @@ public class Filter extends JTextField implements Component{
         }
         DefaultListModel<Note> listModel = new DefaultListModel<>();
         for (Note note : notes) {
-            if (note.getName().contains(s)) {
+            if (note.getName().toLowerCase().contains(s.toLowerCase())) {
                 listModel.addElement(note);
             }
         }
