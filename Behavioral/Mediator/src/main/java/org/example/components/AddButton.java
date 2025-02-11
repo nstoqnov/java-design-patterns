@@ -13,6 +13,10 @@ public class AddButton extends JButton implements Component{
         super("Add");
     }
     @Override
+    public void setMediator(Mediator mediator) {
+        this.mediator = mediator;
+    }
+    @Override
     protected void fireActionPerformed(ActionEvent actionEvent) {
         mediator.addNewNote(new Note());
     }
