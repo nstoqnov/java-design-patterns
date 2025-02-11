@@ -1,4 +1,4 @@
-package org.example;
+package org.example.mediator;
 
 import org.example.components.Component;
 
