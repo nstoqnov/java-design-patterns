@@ -1,5 +1,7 @@
 package org.example.editor;
 
+import org.example.history.History;
+
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
