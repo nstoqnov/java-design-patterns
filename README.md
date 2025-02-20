@@ -50,7 +50,7 @@ These patterns deal with object composition, helping to create large structures 
 | **Adapter**      | Enables incompatible interfaces to work together.             | 🟡 |
 | **Bridge**       | Decouples abstraction from implementation.                    | 🟡         |
 | **Composite**    | Represents part-whole hierarchies with tree structures.       | 🟡         |
-| **Decorator**    | Adds functionality to objects dynamically.                    | ❌ Not Started         |
+| **Decorator**    | Adds functionality to objects dynamically.                    | 🟡 Not Started         |
 | **Facade**       | Simplifies complex system interactions with a single interface. | ❌ Not Started       |
 | **Flyweight**    | Shares data to minimize memory use.                           | ❌ Not Started         |
 | **Proxy**        | Controls access to an object, providing a placeholder.        | ❌ Not Started         |
