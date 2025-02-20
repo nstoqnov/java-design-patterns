@@ -38,7 +38,7 @@ These patterns simplify object creation, enhancing flexibility and reusability.
 | **Singleton**      | Ensures only one instance of a class exists.                  | ✅ |
 | **Factory Method** | Provides an interface for creating instances of related classes. | ✅  |
 | **Abstract Factory** | Creates families of related objects without specifying exact classes. | ✅  |
-| **Builder**        | Builds complex objects step-by-step.                          | 🟡  |
+| **Builder**        | Builds complex objects step-by-step.                          | 🟡 |
 | **Prototype**      | Creates new objects by copying an existing instance.          | 🟡   |
 
 ### Structural Patterns
