@@ -38,7 +38,7 @@ These patterns simplify object creation, enhancing flexibility and reusability.
 | **Singleton**      | Ensures only one instance of a class exists.                  | ✅ |
 | **Factory Method** | Provides an interface for creating instances of related classes. | ✅  |
 | **Abstract Factory** | Creates families of related objects without specifying exact classes. | ✅  |
-| **Builder**        | Builds complex objects step-by-step.                          | 🟡  |
+| **Builder**        | Builds complex objects step-by-step.                          | 🟡|
 | **Prototype**      | Creates new objects by copying an existing instance.          | 🟡   |
 
 ### Structural Patterns
@@ -50,7 +50,7 @@ These patterns deal with object composition, helping to create large structures 
 | **Adapter**      | Enables incompatible interfaces to work together.             | 🟡 |
 | **Bridge**       | Decouples abstraction from implementation.                    | 🟡         |
 | **Composite**    | Represents part-whole hierarchies with tree structures.       | 🟡         |
-| **Decorator**    | Adds functionality to objects dynamically.                    | ❌ Not Started         |
+| **Decorator**    | Adds functionality to objects dynamically.                    | 🟡 Not Started         |
 | **Facade**       | Simplifies complex system interactions with a single interface. | ❌ Not Started       |
 | **Flyweight**    | Shares data to minimize memory use.                           | ❌ Not Started         |
 | **Proxy**        | Controls access to an object, providing a placeholder.        | ❌ Not Started         |
