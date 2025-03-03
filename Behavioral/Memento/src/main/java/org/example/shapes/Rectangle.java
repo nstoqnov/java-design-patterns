@@ -1,4 +1,4 @@
 package org.example.shapes;
 
-public class Rectangle {
+public class Rectangle extends BaseShape{
 }
