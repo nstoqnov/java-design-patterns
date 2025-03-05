@@ -1,5 +1,8 @@
 package org.example.editor;
 
+import org.example.commands.ColorCommand;
+import org.example.commands.MoveCommand;
+import org.example.shapes.Shape;
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;

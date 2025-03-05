@@ -1,5 +1,8 @@
 package org.example.commands;
 
+import org.example.editor.Editor;
+import org.example.shapes.Shape;
+
 public class MoveCommand implements Command{
     private Editor editor;
     private int startX, startY;

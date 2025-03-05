@@ -1,7 +1,11 @@
 package org.example.editor;
 
+import org.example.commands.Command;
+import org.example.commands.MoveCommand;
 import org.example.history.History;
-
+import org.example.history.Memento;
+import org.example.shapes.CompoundShape;
+import org.example.shapes.Shape;
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
