@@ -1,7 +1,7 @@
 package org.example.commands;
 
 import org.example.editor.Editor;
-
+import org.example.shapes.Shape;
 import java.awt.*;
 
 public class ColorCommand implements Command{

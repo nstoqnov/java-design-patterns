@@ -1,5 +1,7 @@
 package org.example.history;
 
+import org.example.commands.Command;
+
 import java.util.ArrayList;
 import java.util.List;
 
