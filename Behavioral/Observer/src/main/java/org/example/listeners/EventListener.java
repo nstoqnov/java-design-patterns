@@ -1,5 +1,7 @@
 package org.example.listeners;
 
-public interface EventListener {
+import java.io.File;
 
+public interface EventListener {
+    void update(String eventType, File file);
 }
