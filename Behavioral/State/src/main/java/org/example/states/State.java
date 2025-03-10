@@ -1,4 +1,4 @@
 package org.example.states;
 
-public class State {
+public abstract class State {
 }
