@@ -1,4 +1,4 @@
 package org.example.states;
 
-public class LockedState {
+public class LockedState extends State {
 }
