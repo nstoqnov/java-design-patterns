@@ -1,5 +1,7 @@
 package org.example.states;
 
+import org.example.ui.Player;
+
 public abstract class State {
     Player player;
 

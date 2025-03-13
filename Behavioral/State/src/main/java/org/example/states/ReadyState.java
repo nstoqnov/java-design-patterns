@@ -1,5 +1,7 @@
 package org.example.states;
 
+import org.example.ui.Player;
+
 public class ReadyState extends State {
     public ReadyState(Player player) {
         super(player);

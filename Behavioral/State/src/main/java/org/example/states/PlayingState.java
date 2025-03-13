@@ -1,5 +1,7 @@
 package org.example.states;
 
+import org.example.ui.Player;
+
 public class PlayingState extends State{
     PlayingState(Player player) {
         super(player);
