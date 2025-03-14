@@ -1,7 +1,13 @@
 package org.example;
 
+import org.example.ui.Player;
+import org.example.ui.UI;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Player player = new Player();
+        UI ui = new UI(player);
+        ui.init();
     }
 }
