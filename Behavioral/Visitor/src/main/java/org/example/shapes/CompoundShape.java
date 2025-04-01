@@ -1,5 +1,7 @@
 package org.example.shapes;
 
+import org.example.visitor.Visitor;
+
 import java.util.ArrayList;
 import java.util.List;
 

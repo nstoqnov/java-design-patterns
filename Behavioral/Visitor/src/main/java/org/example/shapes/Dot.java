@@ -1,5 +1,7 @@
 package org.example.shapes;
 
+import org.example.visitor.Visitor;
+
 public class Dot implements Shape{
     private int id;
     private int x;

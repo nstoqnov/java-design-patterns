@@ -1,5 +1,7 @@
 package org.example.shapes;
 
+import org.example.visitor.Visitor;
+
 public class Rectangle implements Shape{
     private int id;
     private int x;

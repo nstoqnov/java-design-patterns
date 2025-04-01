@@ -1,5 +1,7 @@
 package org.example.shapes;
 
+import org.example.visitor.Visitor;
+
 public class Circle extends Dot{
     private int radius;
 
