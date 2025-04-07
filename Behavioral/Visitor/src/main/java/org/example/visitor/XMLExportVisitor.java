@@ -1,5 +1,7 @@
 package org.example.visitor;
 
+import org.example.shapes.*;
+
 public class XMLExportVisitor implements Visitor{
     public String export(Shape... args) {
         StringBuilder sb = new StringBuilder();
