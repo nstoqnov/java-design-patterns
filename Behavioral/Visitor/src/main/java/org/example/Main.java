@@ -26,5 +26,4 @@ public class Main {
         XMLExportVisitor exportVisitor = new XMLExportVisitor();
         System.out.println(exportVisitor.export(shapes));
     }
-    }
 }
