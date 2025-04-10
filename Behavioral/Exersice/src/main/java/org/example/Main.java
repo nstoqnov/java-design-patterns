@@ -8,8 +8,6 @@ public class Main {
     public static int carry = 0;
     public static void main(String[] args) {
 
-
-
         ListNode l1 = new ListNode(2);
         ListNode l1p = new ListNode(4);
         ListNode l1pp = new ListNode(3);
@@ -25,9 +23,6 @@ public class Main {
         l2p.next = l2pp;
 
         addTwoNumbers(l1, l2);
-
-
-
 
     }
 

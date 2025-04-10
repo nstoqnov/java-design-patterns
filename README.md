@@ -60,18 +60,18 @@ These patterns deal with object composition, helping to create large structures 
 
 Behavioral patterns manage object interactions and communication, making systems flexible and responsive.
 
-| Pattern                     | Description                                            | Status         |
-| --------------------------- | ------------------------------------------------------ | -------------- |
-| **Chain of Responsibility** | Passes requests along a chain of handlers.             | ❌ Not Started |
-| **Command**                 | Encapsulates requests as objects.                      | ❌ Not Started |
-| **Interpreter**             | Provides a way to interpret custom language grammars.  | ❌ Not Started |
-| **Iterator**                | Sequentially accesses elements of a collection.        | ❌ Not Started |
-| **Mediator**                | Simplifies complex object communication.               | ❌ Not Started |
-| **Memento**                 | Captures and restores an object's state.               | ❌ Not Started |
-| **Observer**                | Notifies dependent objects of state changes.           | ❌ Not Started |
-| **State**                   | Alters object behavior based on its internal state.    | ❌ Not Started |
-| **Strategy**                | Allows for interchangeable algorithms in an operation. | ❌ Not Started |
-| **Template Method**         | Defines steps of an algorithm, allowing customization. | ❌ Not Started |
-| **Visitor**                 | Adds operations to classes without modifying them.     | ❌ Not Started |
+| Pattern                     | Description                                            | Status |
+| --------------------------- | ------------------------------------------------------ | ------ |
+| **Chain of Responsibility** | Passes requests along a chain of handlers.             | 🟡     |
+| **Command**                 | Encapsulates requests as objects.                      | 🟡     |
+| **Interpreter**             | Provides a way to interpret custom language grammars.  | 🟡     |
+| **Iterator**                | Sequentially accesses elements of a collection.        | 🟡     |
+| **Mediator**                | Simplifies complex object communication.               | 🟡     |
+| **Memento**                 | Captures and restores an object's state.               | 🟡     |
+| **Observer**                | Notifies dependent objects of state changes.           | 🟡     |
+| **State**                   | Alters object behavior based on its internal state.    | 🟡     |
+| **Strategy**                | Allows for interchangeable algorithms in an operation. | 🟡     |
+| **Template Method**         | Defines steps of an algorithm, allowing customization. | 🟡     |
+| **Visitor**                 | Adds operations to classes without modifying them.     | 🟡     |
 
 ---
