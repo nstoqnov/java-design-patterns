@@ -23,6 +23,18 @@ public class Main {
                 case "queryname":
                     getByName(phonebook, action[1]);
                     break;
+                case "querynum":
+                    getByNumber(phonebook,action[1]);
+                    break;
+            }
+        }
+    }
+
+    private static void getByNumber(String[] phonebook, String phone) {
+        for (int i = 0; i < phonebook.length; i++) {
+            if(phonebook[i] != null && phonebook[i].contains(phone)){
+                String[] contact = phonebook[i].split(" ");
+                System.out.println(contact[0]);
             }
         }
     }
