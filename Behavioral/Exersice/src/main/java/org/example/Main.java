@@ -30,6 +30,13 @@ public class Main {
         }
     }
 
+    private static void delByNumber(String[] phonebook, String phone) {
+        for (int i = 0; i < phonebook.length; i++) {
+            if(phonebook[i] != null && phonebook[i].contains(phone)){
+                phonebook[i] = null;
+            }
+        }
+    }
     private static void getByNumber(String[] phonebook, String phone) {
         for (int i = 0; i < phonebook.length; i++) {
             if(phonebook[i] != null && phonebook[i].contains(phone)){
