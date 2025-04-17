@@ -21,10 +21,24 @@ public class Main {
                     addName(phonebook, action[1], action[2]);
                     break;
                 case "queryname":
+                    getByName(phonebook, action[1]);
                     break;
             }
         }
     }
+
+    private static void getByName(String[] phonebook, String name) {
+        for (int i = 0; i < phonebook.length; i++) {
+            if(phonebook[i] != null && phonebook[i].contains(name)){
+                String[] contact = phonebook[i].split(" ");
+                for (int j = 1; j < contact.length; j++) {
+                    System.out.print(contact[j] + " ");
+                }
+                System.out.print("\n");
+            }
+        }
+    }
+
     public static void addName(String[] phonebook, String name, String phone){
         boolean found = false;
         for (int i = 0; i < phonebook.length; i++) {
