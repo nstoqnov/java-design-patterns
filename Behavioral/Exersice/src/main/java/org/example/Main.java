@@ -20,6 +20,8 @@ public class Main {
                 case "add":
                     addName(phonebook, action[1], action[2]);
                     break;
+                case "queryname":
+                    break;
             }
         }
     }
@@ -28,7 +30,7 @@ public class Main {
         for (int i = 0; i < phonebook.length; i++) {
             if(phonebook[i] != null && phonebook[i].contains(name)){
                 found = true;
-                String newContent = name + " " + phone;
+                String newContent = phonebook[i] + " " + phone;
                 phonebook[i] = newContent;
             }
         }
