@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int n = Integer.parseInt(scanner.next());
+        int n = Integer.parseInt(scanner.nextLine());
 
         String phonebook[] = new String[n];
 
@@ -47,7 +47,19 @@ public class Main {
     private static void delByNumber(String[] phonebook, String phone) {
         for (int i = 0; i < phonebook.length; i++) {
             if(phonebook[i] != null && phonebook[i].contains(phone)){
-                phonebook[i] = null;
+                String[] contact = phonebook[i].split(" ");
+                if(contact.length > 2){
+                    String newContact = contact[0];
+                    for (int j = 1; j < contact.length; j++) {
+                        if(!contact[j].equals(phone)){
+                            newContact = newContact + " " + contact[j];
+                        }
+                    }
+                    phonebook[i] = newContact;
+                }else{
+                    phonebook[i] = null;
+                }
+
             }
         }
     }
