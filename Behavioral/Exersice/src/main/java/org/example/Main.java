@@ -26,6 +26,9 @@ public class Main {
                 case "querynum":
                     getByNumber(phonebook,action[1]);
                     break;
+                case "delnum":
+                    delByNumber(phonebook,action[1]);
+                    break;
             }
         }
     }
