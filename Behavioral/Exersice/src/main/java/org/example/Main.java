@@ -29,6 +29,9 @@ public class Main {
                 case "delnum":
                     delByNumber(phonebook,action[1]);
                     break;
+                case "delname":
+                    delByName(phonebook,action[1]);
+                    break;
             }
         }
     }
