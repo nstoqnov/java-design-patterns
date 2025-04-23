@@ -78,7 +78,7 @@ public class Main {
 
         for (int i = 0; i < retArray.length; i++) {
             if(i == retArray.length - 1){
-                System.out.print(retArray[i]);
+                System.out.println(retArray[i]);
             }else{
                 System.out.print(retArray[i] + " ");
             }
@@ -87,13 +87,24 @@ public class Main {
     }
 
     private static void getByName(String[] phonebook, String name) {
+        String retVal = "";
         for (int i = 0; i < phonebook.length; i++) {
             if(phonebook[i] != null && phonebook[i].contains(name)){
                 String[] contact = phonebook[i].split(" ");
                 for (int j = 1; j < contact.length; j++) {
-                    System.out.print(contact[j] + " ");
+
+                    retVal = retVal + contact[j] + " ";
                 }
-                System.out.print("\n");
+            }
+        }
+        String retArr[] = retVal.split(" ");
+        Arrays.sort(retArr);
+
+        for (int i = 0; i < retArr.length; i++) {
+            if(retArr.length - 1 == i){
+                System.out.println(retArr[i]);
+            }else{
+                System.out.print(retArr[i] + " ");
             }
         }
     }
