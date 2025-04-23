@@ -64,12 +64,15 @@ public class Main {
         }
     }
     private static void getByNumber(String[] phonebook, String phone) {
+        String returnValue = "";
         for (int i = 0; i < phonebook.length; i++) {
             if(phonebook[i] != null && phonebook[i].contains(phone)){
                 String[] contact = phonebook[i].split(" ");
-                System.out.println(contact[0]);
+                returnValue = returnValue + contact[0] + " ";
+
             }
         }
+        System.out.println(returnValue);
     }
 
     private static void getByName(String[] phonebook, String name) {
