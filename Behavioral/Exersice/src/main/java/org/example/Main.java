@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -72,7 +73,17 @@ public class Main {
 
             }
         }
-        System.out.println(returnValue);
+        String[] retArray = returnValue.split(" ");
+        Arrays.sort(retArray);
+
+        for (int i = 0; i < retArray.length; i++) {
+            if(i == retArray.length - 1){
+                System.out.print(retArray[i]);
+            }else{
+                System.out.print(retArray[i] + " ");
+            }
+
+        }
     }
 
     private static void getByName(String[] phonebook, String name) {
