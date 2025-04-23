@@ -12,7 +12,9 @@ public class Main {
         int n = Integer.parseInt(scanner.nextLine());
 
         String phonebook[] = new String[n];
-
+        if(n > 100000 || n < 1){
+            return;
+        }
         for (int i = 0; i < n; i++) {
             String command = scanner.nextLine();
             String action[] = command.split(" ");
