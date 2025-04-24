@@ -10,25 +10,18 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int price = Integer.parseInt(scanner.next());
-
         int exchange = Integer.parseInt(scanner.next());
-
         int amount = Integer.parseInt(scanner.next());
 
-        int result = 0;
-        int rem = 0;
-        int ex = 0;
+        int chocolates = amount / price;
+        int wrappers = chocolates;
 
-        result =amount / price;
-
-        ex = result / exchange;
-
-        result = result + ex;
-        while(ex >= exchange){
-            result = result + (ex / exchange);
-            ex = (ex / exchange) + (ex % exchange);
+        while (wrappers >= exchange) {
+            int newChocolates = wrappers / exchange;
+            chocolates += newChocolates;
+            wrappers = (wrappers % exchange) + newChocolates;
         }
 
-        System.out.println(result);
+        System.out.println(chocolates);
     }
 }
