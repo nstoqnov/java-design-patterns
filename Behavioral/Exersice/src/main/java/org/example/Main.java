@@ -9,22 +9,26 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int left = Integer.parseInt(scanner.next());
+        int price = Integer.parseInt(scanner.next());
 
-        int right = Integer.parseInt(scanner.next());
+        int exchange = Integer.parseInt(scanner.next());
 
-        int odds = 0;
-        int evens = 0;
+        int amount = Integer.parseInt(scanner.next());
 
-        for (int i = left; i <= right; i++) {
-            if(i % 2 == 0){
-                evens = evens + i;
-            }else{
-                odds = odds + i;
-            }
+        int result = 0;
+        int rem = 0;
+        int ex = 0;
+
+        result =amount / price;
+
+        ex = result / exchange;
+
+        result = result + ex;
+        while(ex >= exchange){
+            result = result + (ex / exchange);
+            ex = (ex / exchange) + (ex % exchange);
         }
-        int grade = (Math.abs(odds - evens) % 5) + 2;
-        System.out.println(grade);
 
+        System.out.println(result);
     }
 }
