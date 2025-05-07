@@ -9,19 +9,16 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int price = Integer.parseInt(scanner.next());
-        int exchange = Integer.parseInt(scanner.next());
-        int amount = Integer.parseInt(scanner.next());
+        int n = Integer.parseInt(scanner.nextLine());
+        int counter = 0;
+        for (int i = 0; i < n; i++) {
+            String egn = scanner.nextLine();
 
-        int chocolates = amount / price;
-        int wrappers = chocolates;
-
-        while (wrappers >= exchange) {
-            int newChocolates = wrappers / exchange;
-            chocolates += newChocolates;
-            wrappers = (wrappers % exchange) + newChocolates;
+            if(egn.charAt(8) % 2 == 0){
+                counter++;
+            }
         }
 
-        System.out.println(chocolates);
+        System.out.println(counter);
     }
 }
