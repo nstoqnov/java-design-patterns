@@ -10,15 +10,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int n = Integer.parseInt(scanner.nextLine());
-        int counter = 0;
-        for (int i = 0; i < n; i++) {
-            String egn = scanner.nextLine();
-
-            if(egn.charAt(8) % 2 == 0){
-                counter++;
-            }
+        int[] arr = new int[n + 1];
+        for (int i = 0; i < n + 1; i++) {
+            arr[i] = Integer.parseInt(scanner.next());
         }
 
-        System.out.println(counter);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }
 }
