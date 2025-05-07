@@ -14,9 +14,26 @@ public class Main {
         for (int i = 0; i < n + 1; i++) {
             arr[i] = Integer.parseInt(scanner.next());
         }
+        boolean notSorted = true;
+        int counter = 0;
+        while(notSorted){
+            for (int i = 0; i < arr.length - 1; i++) {
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+                if(i == arr.length - 2){
+                    notSorted = false;
+                }
+
+                if(arr[i] > arr[i + 1]){
+                    int temp = arr[i + 1];
+                    arr[i + 1] = arr[i];
+                    arr[i] = temp;
+                    counter++;
+                    notSorted = true;
+                }
+            }
         }
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.println(arr[i]);
+//        }
     }
 }
