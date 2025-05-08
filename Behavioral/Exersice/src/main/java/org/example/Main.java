@@ -16,6 +16,13 @@ public class Main {
             consonants = 0;
             String input = scanner.nextLine();
 
+            for (int j = 0; j < input.length(); j++) {
+                if(input.charAt(j) == 'a'){
+                    vowels++;
+                }else{
+                    consonants++;
+                }
+            }
         }
 
 //        Scanner scanner = new Scanner(System.in);
