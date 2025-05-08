@@ -27,6 +27,11 @@ public class Main {
                     consonants++;
                 }
             }
+            if(vowels == consonants){
+                System.out.println("Yes");
+            }else{
+                System.out.println("No");
+            }
         }
 
 //        Scanner scanner = new Scanner(System.in);
