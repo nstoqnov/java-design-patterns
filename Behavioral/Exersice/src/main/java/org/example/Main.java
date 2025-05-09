@@ -7,32 +7,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int n = Integer.parseInt(scanner.nextLine());
-        int vowels = 0;
-        int consonants = 0;
+        int n = Integer.parseInt(scanner.next());
+        int m = Integer.parseInt(scanner.next());
+        int k = Integer.parseInt(scanner.next());
+
+        char[][] matrix = new char[n][m];
 
         for (int i = 0; i < n; i++) {
-            vowels = 0;
-            consonants = 0;
-            String input = scanner.nextLine();
-
-            for (int j = 0; j < input.length(); j++) {
-                if(input.charAt(j) == 'a' ||
-                        input.charAt(j) == 'e' ||
-                        input.charAt(j) == 'i' ||
-                        input.charAt(j) == 'o' ||
-                        input.charAt(j) == 'u'){
-                    vowels++;
-                }else{
-                    consonants++;
-                }
-            }
-            if(vowels == consonants){
-                System.out.println("Yes");
-            }else{
-                System.out.println("No");
+            for (int j = 0; j < m; j++) {
+                matrix[i][j] = scanner.next().charAt(j);
             }
         }
+
 
 //        Scanner scanner = new Scanner(System.in);
 //
