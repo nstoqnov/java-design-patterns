@@ -12,13 +12,25 @@ public class Main {
         int k = Integer.parseInt(scanner.next());
 
         char[][] matrix = new char[n][m];
+        char[] win = new char[k];
 
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                matrix[i][j] = scanner.next().charAt(j);
+            String input = scanner.next();
+            for (int j = 0; j < input.length(); j++) {
+                matrix[i][j] = input.charAt(j);
             }
         }
 
+        //input winning combination
+        for (int i = 0; i < k; i++) {
+            win[i] = scanner.next().charAt(0);
+        }
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.println(matrix[i][j]);
+            }
+        }
 
 //        Scanner scanner = new Scanner(System.in);
 //
