@@ -20,10 +20,11 @@ public class Main {
                 matrix[i][j] = input.charAt(j);
             }
         }
+        String winString = scanner.next();
 
         //input winning combination
         for (int i = 0; i < k; i++) {
-            win[i] = scanner.next().charAt(0);
+            win[i] = winString.charAt(i);
         }
 
         for (int i = 0; i < n; i++) {
