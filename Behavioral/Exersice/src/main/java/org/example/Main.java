@@ -37,7 +37,7 @@ public class Main {
             for (int j = 0; j < m; j++) {
                 row = row + matrix[i][j];
             }
-            if(row.contains(winString)){
+            if(isContain(row,winString)){
                 System.out.println("Winning");
                 return;
             }
@@ -48,7 +48,7 @@ public class Main {
             for (int j = 0; j < n; j++) {
                 column = column + matrix[j][i];
             }
-            if(column.contains(winString)){
+            if(isContain(column,winString)){
                 System.out.println("Winning");
                 return;
             }
