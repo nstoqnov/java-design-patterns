@@ -27,12 +27,29 @@ public class Main {
             win[i] = winString.charAt(i);
         }
 
+        //iterate every row
         for (int i = 0; i < n; i++) {
+            String row = "";
             for (int j = 0; j < m; j++) {
-                System.out.println(matrix[i][j]);
+                row = row + matrix[i][j];
+            }
+            if(row.contains(winString)){
+                System.out.println("Winning");
+                return;
             }
         }
 
+        for (int i = 0; i < m; i++) {
+            String column = "";
+            for (int j = 0; j < n; j++) {
+                column = column + matrix[j][i];
+            }
+            if(column.contains(winString)){
+                System.out.println("Winning");
+                return;
+            }
+        }
+        System.out.println("Losing");
 //        Scanner scanner = new Scanner(System.in);
 //
 //        int n = Integer.parseInt(scanner.nextLine());
