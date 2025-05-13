@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println(isContain("1208714","713"));
+
+
         Scanner scanner = new Scanner(System.in);
 
         int n = Integer.parseInt(scanner.next());
@@ -81,12 +85,15 @@ public class Main {
         int sizeOfText = text.length();
         int sizeOfNeedle = needle.length();
 
-        if(sizeOfNeedle > sizeOfText){
-            //search if text is part of needle
-        }else{
-            //search if needle is part of text
+        for (int i = 0; i <= sizeOfText - sizeOfNeedle; i++) {
+            String searchFor = "";
+            for (int j = i; j < sizeOfNeedle + i; j++) {
+                searchFor = searchFor + text.charAt(j);
+            }
+            if(searchFor.equals(needle)){
+                return true;
+            }
         }
-
 
         return false;
     }
