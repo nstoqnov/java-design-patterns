@@ -77,4 +77,17 @@ public class Main {
 //
 //        System.out.println(counter*10);
     }
+    public static boolean isContain(String text, String needle){
+        int sizeOfText = text.length();
+        int sizeOfNeedle = needle.length();
+
+        if(sizeOfNeedle > sizeOfText){
+            //search if text is part of needle
+        }else{
+            //search if needle is part of text
+        }
+
+
+        return false;
+    }
 }
