@@ -10,6 +10,9 @@ public class Main {
 
         int n = Integer.parseInt(scanner.next());
 
+        while (n > 9){
+            n = n/10;
+        }
     }
 
 }
