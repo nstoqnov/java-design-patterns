@@ -9,10 +9,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int n = Integer.parseInt(scanner.next());
-
+        int result = 1;
         while (n > 9){
+            result = (n % 10) * result;
             n = n/10;
         }
+
     }
 
 }
