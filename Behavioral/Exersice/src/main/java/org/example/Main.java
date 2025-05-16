@@ -14,6 +14,11 @@ public class Main {
             result = (n % 10) * result;
             n = n/10;
         }
+        n = result;
+        while(n > 9){
+            result = result * n % 10;
+            n = n/10;
+        }
 
     }
 
