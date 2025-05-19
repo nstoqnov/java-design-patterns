@@ -14,7 +14,8 @@ public class Main {
     }
     public static int divideToOneDigit(int a){
         int result = 1;
-        while (a > 9){
+
+        while (a % 10 > 0){
             result = (a % 10) * result;
             a = a / 10;
         }
