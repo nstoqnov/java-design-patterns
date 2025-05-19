@@ -8,13 +8,16 @@ public class Main {
         //Digit multiplication
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.next());
+
+        n = divideToOneDigit(n);
+        System.out.println(n);
     }
-    public static void divideToOneDigit(int a){
+    public static int divideToOneDigit(int a){
         int result = 1;
         while (a > 9){
             result = (a % 10) * result;
             a = a / 10;
         }
-        a = result;
+        return result;
     }
 }
