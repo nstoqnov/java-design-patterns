@@ -8,8 +8,9 @@ public class Main {
         //Digit multiplication
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.next());
-
-        n = divideToOneDigit(n);
+        while (n > 9){
+            n = divideToOneDigit(n);
+        }
         System.out.println(n);
     }
     public static int divideToOneDigit(int a){
