@@ -14,8 +14,11 @@ public class Main {
         System.out.println(n);
     }
     public static int divideToOneDigit(int a){
-        int result = 1;
-
+        int result = a % 10;
+        if(result == 0){
+            return 0;
+        }
+        a = a / 10;
         while (a % 10 > 0){
             result = (a % 10) * result;
             a = a / 10;
