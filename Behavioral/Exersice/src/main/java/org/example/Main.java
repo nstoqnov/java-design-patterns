@@ -11,6 +11,17 @@ public class Main {
         int testCases = Integer.parseInt(in.nextLine());
 
         Pattern pattern = Pattern.compile("<(.+?)>([^<>]+)</\\1>");
+
+        while(testCases-- > 0) {
+            String line = in.nextLine();
+            Matcher matcher = pattern.matcher(line);
+            boolean found = false;
+
+            while (matcher.find()) {
+                System.out.println(matcher.group(2)); // print the content
+                found = true;
+            }
+        }
     }
 
 }
