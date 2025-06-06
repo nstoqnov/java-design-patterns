@@ -15,6 +15,7 @@ public class Main {
             ob.checkPrime(sc.nextInt(), sc.nextInt(), sc.nextInt(), sc.nextInt(), sc.nextInt());
             sc.close();
         } catch(Exception e) {
+            System.out.println(e);
         }
     }
 
