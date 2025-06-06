@@ -7,7 +7,15 @@ import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
-
+        try{
+            Scanner sc = new Scanner(System.in);
+            Prime ob = new Prime();
+            ob.checkPrime(sc.nextInt());
+            ob.checkPrime(sc.nextInt(), sc.nextInt());
+            ob.checkPrime(sc.nextInt(), sc.nextInt(), sc.nextInt(), sc.nextInt(), sc.nextInt());
+            sc.close();
+        } catch(Exception e) {
+        }
     }
 
 }
