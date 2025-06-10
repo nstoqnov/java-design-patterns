@@ -1,7 +1,6 @@
 package org.example;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,6 +10,9 @@ public class Main {
         Deque<Integer> deque = new ArrayDeque<>();
         HashMap<Integer, Integer> map = new HashMap<>();
 
+        int n = in.nextInt(); // total numbers
+        int m = in.nextInt(); // window size
+        int max = 0;
 
     }
 
