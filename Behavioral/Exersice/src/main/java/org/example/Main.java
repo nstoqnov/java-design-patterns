@@ -19,8 +19,16 @@ public class Main {
             deque.addLast(num);
             map.put(num, map.getOrDefault(num, 0) + 1);
 
+            if (deque.size() > m) {
+                int removed = deque.removeFirst();
+                map.put(removed, map.get(removed) - 1);
+                if (map.get(removed) == 0) {
+                    map.remove(removed);
+                }
+                
+            }
         }
-        
+
     }
 
 }
