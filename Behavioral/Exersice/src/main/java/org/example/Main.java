@@ -14,6 +14,13 @@ public class Main {
         int m = in.nextInt(); // window size
         int max = 0;
 
+        for (int i = 0; i < n; i++) {
+            int num = in.nextInt();
+            deque.addLast(num);
+            map.put(num, map.getOrDefault(num, 0) + 1);
+
+        }
+        
     }
 
 }
