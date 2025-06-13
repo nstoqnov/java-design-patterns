@@ -31,7 +31,7 @@ public class Main {
                 max = Math.max(max, map.size());
             }
         }
-
+        System.out.println(max);
     }
 
 }
