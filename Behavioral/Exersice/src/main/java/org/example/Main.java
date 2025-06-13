@@ -25,7 +25,10 @@ public class Main {
                 if (map.get(removed) == 0) {
                     map.remove(removed);
                 }
-                
+
+            }
+            if (deque.size() == m) {
+                max = Math.max(max, map.size());
             }
         }
 
